@@ -10,79 +10,83 @@
 </head>
 
 <body>
-	<div class="header-box container">
-		<ul class="header-menu">
-			<li class="menu-main-link"><a href="index.html"><img src="img/menu_main.svg" alt="menu_main"></a></li>
-			<li class="menu-contacts-link"><a href="contacts.html"><img src="img/menu_contacts.svg"
-						alt="menu_contacts"></a></li>
-		</ul>
-		<div class="contact-us">
-			<h2 class="contact-us-heading">Contact Us</h2>
-			<p class="p-text">Contact us and you will not regret it</p>
-		</div>
-	</div>
-	<div class="contacts-and-message container" id="lets-talk">
-		<div class="contacts">
-			<img class="contacts-image" src="img/Contacts.jpg" alt="contacts" width="350">
-			<div class="contacts-address">
-				<h4 class="address-heading">Address</h4>
-				<p class="p-text">Country, City, Street, 1/5</p>
+	<div class="wraper">
+		<div class="content">
+			<div class="contacts-header">
+				<div class="container">
+					<ul class="header-menu">
+						<li class="menu-main-link"><a href="index.html"><img src="img/menu_main.svg" alt="menu_main"></a></li>
+						<li class="menu-contacts-link"><a href="contacts.html"><img src="img/menu_contacts.svg"
+									alt="menu_contacts"></a></li>
+					</ul>
+					<div class="contact-us">
+						<h2 class="contact-us-heading">Contact Us</h2>
+						<p class="p-text contact-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+				</div>
 			</div>
-			<div class="contacts-phone">
-				<h4 class="phone-heading">Phone</h4>
-				<ul class="contacts-phone-list">
-					<li>+7 999 876 54 32</li>
-					<li>+7 999 987 65 43</li>
+			<div class="contacts-and-message container-mini" id="lets-talk">
+				<div class="contacts">
+					<img class="contacts-image" src="img/contacts.png" alt="contacts">
+					<div class="contacts-address">
+						<h4 class="address-heading">Address</h4>
+						<p class="p-text">Country, City, Street, 1/5</p>
+					</div>
+					<div class="contacts-phone">
+						<h4 class="phone-heading">Phone</h4>
+						<ul class="contacts-phone-list">
+							<li class="p-text phone">+7 999 876 54 32</li>
+							<li class="p-text phone">+7 999 987 65 43</li>
+						</ul>
+					</div>
+					<div class="contacts-online-service">
+						<h4 class="online-service-heading">Online service</h4>
+						<ul class="contacts-online-service-list">
+							<li class="p-text site"><a href="#">rogaIkopyta.razvoda.net</a></li>
+							<li class="p-text email"><a href="#">mail@rogaIkopyta.razvoda.net</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="message-form">
+					<form action="">
+						<h4 class="message-form-heading">Send us message</h4>
+						<label class="input-label" for="name">Full name</label><input class="form-input" id="name" type="text"
+							placeholder="Name Surname"><br>
+						<label class="input-label" for="mail">Email</label><input class="form-input" id="mail" type="email"
+							placeholder="mail@mail.ru"><br>
+						<label class="input-label" for="message">Message</label><br>
+						<textarea class="form-input message-input" name="" cols="60" rows="5" id="message"></textarea><br>
+						<button class="submit-button" type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div class="contacts-map container-mini">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad5cab5bfb28d6ac5396bf321ea49622fae2751c54cc7d57ec8aad2cb1a10e732&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer-top container">
+				<div class="footer-woek">
+					<h3 class="woek-heading">Intersted to woek with our team?</h3>
+					<p class="p-text woek-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+				<a class="woek-link" href="contacts.html">Let’s Talk</a>
+			</div>
+			<hr class="footer-separator">
+			<div class="footer-bottom container">
+				<ul class="footer-contacts">
+					<li class="footer-contacts-item">City, Street, 1/5 Lorem ipsum dolor sit amet.</li>
+					<li class="footer-contacts-item">+79998765432</li>
+					<li class="footer-contacts-item">mail@mail.ru</li>
 				</ul>
+				<div class="footer-copyright">
+					<p class="p-text copyright-text">All rights reserved</p>
+				</div>
 			</div>
-			<div class="contacts-online-service">
-				<h4 class="online-service-heading">Online service</h4>
-				<ul class="contacts-online-service-list">
-					<li><a href="#">rogaIkopyta.razvoda.net</a></li>
-					<li><a href="#">mail@rogaIkopyta.razvoda.net</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="message-form">
-			<form action="">
-				<h4 class="message-form-heading">Send us message</h4>
-				<label for="name">Full name </label><input class="form-input" id="name" type="text"
-					placeholder="Name Surname"><br>
-				<label for="mail">Email </label><input class="form-input" id="mail" type="email"
-					placeholder="mail@mail.ru"><br>
-				<label for="message">Message</label><br>
-				<textarea class="form-input" name="" id="message" cols="30" rows="5"></textarea><br>
-				<button class="submit-button" type="submit">Submit</button>
-			</form>
-		</div>
+		</footer>
 	</div>
-	<div class="contacts-map container">
-		<script type="text/javascript" charset="utf-8" async
-			src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad1a15a23dd84484218ea555931784730c6714b403bb3bff32644572e5f193401&amp;width=1140&amp;height=500&amp;lang=ru_RU&amp;scroll=true">
-			</script>
-	</div>
-	<footer class="footer">
-		<div class="footer-top container">
-			<div class="footer-woek">
-				<h3 class="woek-heading">Intersted to woek with our team?</h3>
-				<p class="p-text woek-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			</div>
-			<a class="woek-link" href="contacts.html">Let’s Talk</a>
-		</div>
-		<hr class="footer-separator">
-		<div class="footer-bottom container">
-			<ul class="footer-contacts">
-				<li class="footer-contacts-item">City, Street, 1/5 Lorem ipsum dolor sit amet.</li>
-				<li class="footer-contacts-item">+79998765432</li>
-				<li class="footer-contacts-item">mail@mail.ru</li>
-			</ul>
-			<div class="footer-copyright">
-				<p class="p-text copyright-text">All rights reserved</p>
-			</div>
-		</div>
-	</footer>
 </body>
 
 </html>
