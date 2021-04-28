@@ -1,14 +1,6 @@
 /* Подключение шрифтов*/
 
-@font-face {
-  font-family: "Roboto";
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("Roboto"),
-       /* Если не получилось, загрузит woff2 */
-       url("fonts/Roboto/Roboto.woff2") format("woff2"),
-       /* Если браузер не поддерживает woff2, загрузит woff */
-       url("fonts/Roboto/Roboto.woff") format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /*---------------------------*/
 
